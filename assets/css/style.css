@@ -1,0 +1,75 @@
+body{
+	background:black;
+	max-height:900px;
+	min-height:900px;
+	overflow: hidden;
+}
+
+.main{
+	position:absolute;
+	left:8%;
+	top:6%;
+	max-width:80%;
+	min-width:80%;
+	max-height:550px;
+	min-height:550px;
+	display:block;
+	background-image: url("../images/movie.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 20px solid white;
+}
+
+#header h1{
+	text-align: center;
+	color:gold;
+	font-size: 400%;
+	margin-bottom:0;
+}
+
+#content{
+	text-align: center;
+}
+#start{
+	font-size: 150%;
+	margin-top:150px;
+	height:50px;
+	width:200px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#timer{
+	max-height:50px;
+	min-height:50px;
+	color: white;
+	font-weight: 500;
+	font-size:30px;
+}
+#questions{
+	font-size:150%;
+	max-height: 100px;
+	min-height: 100px;
+	max-width:  600px;
+	min-width:  600px;
+	display: block;
+	margin: auto;
+	color:white;
+}
+.answer{
+	font-size:150%;
+	max-height: 60px;
+	min-height: 60px;
+	max-width:  200px;
+	min-width:  200px;
+	display: block;
+	margin: auto;
+	color:white;
+
+}
+h2{
+	color:white;
+}
+h3{
+	color:white;
+}
+
